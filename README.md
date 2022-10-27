@@ -7,7 +7,7 @@ INPUT FILE:
 PROCEDURE: 
   1. Importing normal vector components and storing them into seperate matrix 
   2. Calculating dip angle of the discontinuity plane (in regards to horizontal plane) using direction cosines nz of the normal vector 
-  3. FOR lupe which finds all normal vectors that are facing down and turns there orientation - All normals have to be oriented upward (positive nz component)
+  3. FOR loop which finds all normal vectors that are facing down and turns there orientation - All normals have to be oriented upward (positive nz component)
   4. Calculation of dip direction ( clockwise angle form the north direction ) - calculation is done by using direction cosines for 4 quardants
   5. Storing dip and dip direction vvalues into a seperate matrix 
   6. Exporting CSV file for further analysis
