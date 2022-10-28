@@ -5,9 +5,9 @@ data = load('Test js-c-abcd.txt')
 
 %sorting data in seperate matrix containing only components of normal vector 
 
-N_input = [data(:,4),data(:,5), data(:,6)] % normalising vectors - result is unit vector
+N_input = [data(:,4),data(:,5), data(:,6)] 
 
-n = N_input ./ repmat( vecnorm(N_input,2,2), [1,3]); % matrix containing unit normal vector components
+n = N_input ./ repmat( vecnorm(N_input,2,2), [1,3]); % normalising vectors - matrix containing unit normal vector components
 
 %calculating dip of the plane (in regards to horizontal plane)- 2 ways
 
